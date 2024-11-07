@@ -17,7 +17,7 @@ def is_enabled(value, default):
 ADMIN = int(getenv("ADMIN", "5398056049"))
 API_ID = int(getenv("API_ID", "28714959"))
 API_HASH = str(getenv("API_HASH", "c0b9797634090ee3f4c1c56db6c051a7"))
-BOT_TOKEN = str(getenv("BOT_TOKEN", "7944741568:AAGwHwtgaQxp9ymvee5bkWOwI1a_w2X32gI"))
+BOT_TOKEN = str(getenv("BOT_TOKEN", "8032865598:AAGA9Zetpv7jkJyaPsHu07N2gykNYXRVbzs"))
 MONGO_DB = str(
     getenv(
         "MONGO_DB",
@@ -27,6 +27,6 @@ MONGO_DB = str(
 DEF_CAP = str(
     getenv(
         "DEF_CAP",
-        "<b>{file_name} \n\n⌬  Powered By ~ @Thefilimfactor</b>",
+        "<b></b>",
     )
 )
