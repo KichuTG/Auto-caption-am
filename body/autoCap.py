@@ -50,7 +50,7 @@ async def delCap(_, msg):
 async def reCap(bot, message):
     chnl_id = message.chat.id
     if message.media:
-        for file_type in ("video", "audio", "document", "voice"):
+        for file_type in ("video", "audio", "document", "voice", "image"):
             obj = getattr(message, file_type, None)
             if obj and hasattr(obj, "file_name"):
                 file_name = obj.file_name
