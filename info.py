@@ -27,6 +27,6 @@ MONGO_DB = str(
 DEF_CAP = str(
     getenv(
         "DEF_CAP",
-        "<b></b>",
+        "<b>{file_caption} \n\n Ask it on @Tgmoviespro1bot</b>",
     )
 )
